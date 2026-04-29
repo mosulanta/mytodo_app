@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+.loadingSpinnerContainer {
+  @apply flex items-center justify-center min-h-screen bg-gray-50;
+}
+
+.loadingSpinner {
+  @apply w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin;
+}
+
+
+
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+
