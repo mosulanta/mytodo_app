@@ -236,9 +236,9 @@ import { toast } from "react-toastify";
             onChange={(e) => setCategoryId(e.target.value)}
             >
             <option value="">Select category</option>
-            <option value="11">Home</option>
-            <option value="12">Work</option>
-            <option value="13">Personal</option>
+            <option value="3">Home</option>
+            <option value="2">Work</option>
+            <option value="1">Personal</option>
           </select>
         </div>
 
